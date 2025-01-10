@@ -1,0 +1,14 @@
+export declare const isEmptyObject: (obj: object) => boolean;
+export declare const isEmptyArray: (arr: Array<any>) => boolean;
+export declare const isValidDateObject: (date: Date) => boolean;
+export declare const isValidDateString: (date: string) => boolean;
+export declare const isDate: (date: Date | string) => boolean;
+export declare const isNumber: (num: number | string | any) => boolean;
+export declare const isString: (str: string | any) => boolean;
+export declare const isBoolean: (bool: string | any) => boolean;
+export declare const isExist: (variable: string | any) => boolean;
+export declare const isObject: (obj: object) => boolean;
+export declare const isArray: (arr: Array<any>) => boolean;
+export declare const isBlankOrNull: (args: string | number | object | Array<any> | any) => boolean;
+export declare const isEmptyString: (args: string) => boolean;
+export declare const toBoolean: (args: string) => boolean;
